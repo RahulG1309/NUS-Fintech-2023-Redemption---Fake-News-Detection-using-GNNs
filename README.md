@@ -13,9 +13,9 @@ In this project we harness the power of **Graph Neural Networks (GNNs)** for sol
 Before installation, here's an overview of the repository structure.
 
 <ol>
-  <li> **/Componenets** - This directory contains all the individual components used in the pipeline. Namely the graph generator, encoder, GNN model and driver script. This folder would be useful if one wishes to explore how a specific component works as they are thouroughly documented. </li>
-  <li> **/Pipeline** - This directory contains a compiled jupyter notebook of the end-to-end detection pipeline. We recommend checking this out as it would allow one to experiment with our service and see how the data flows from URL to propogation graph and finally an encoded tensor. It is also useful for experimenting with extensions/modifications to the service. </li>
-  <li> **/REST API** - This directory contains a Django project of a simple web application showcasing our Fake News Detector. Leveraging the Django REST Framework we created an API for our service and deployed it on Python Anywhere. The components used in the repository are the same ones found in /Components, but are resturctured in acccordance to the Django framework.</li>
+  <li> /Componenets - This directory contains all the individual components used in the pipeline. Namely the graph generator, encoder, GNN model and driver script. This folder would be useful if one wishes to explore how a specific component works as they are thouroughly documented. </li>
+  <li> /Pipeline - This directory contains a compiled jupyter notebook of the end-to-end detection pipeline. We recommend checking this out as it would allow one to experiment with our service and see how the data flows from URL to propogation graph and finally an encoded tensor. It is also useful for experimenting with extensions/modifications to the service. </li>
+  <li> /REST API - This directory contains a Django project of a simple web application showcasing our Fake News Detector. Leveraging the Django REST Framework we created an API for our service and deployed it on Python Anywhere. The components used in the repository are the same ones found in /Components, but are resturctured in acccordance to the Django framework.</li>
 </ol>
 
 ## Usage
