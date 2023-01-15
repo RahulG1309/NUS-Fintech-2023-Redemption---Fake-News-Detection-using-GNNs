@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>PayBack FakeNews GNN</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>The Probability that the news is fake is: {{prediction}}</h1>
+			</header>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://instagram.com/payback_dlw?igshid=YmMyMTA2M2Y=" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/DChops/PayBack" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Team PayBack.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="{% static 'assets/js/main.js' %}"></script>
+
+	</body>
+</html>
